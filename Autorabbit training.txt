@@ -1,0 +1,16 @@
+Version control:
+
+Commits:
+
+org to bra - comm
+bra to bra -merge
+
+branc to org - deploy
+
+mERGE TYPE - 
+sINGLE REV
+couple of release lBELS
+
+CI/CD - deploy the merge job
+
+
