@@ -4,4 +4,10 @@
         <members>SantoshTest__c</members>
         <name>CustomObject</name>
     </types>
+    <types>
+        <members>Admin</members>
+        <members>Analytics Cloud Integration User</members>
+        <members>Sales</members>
+        <name>Profile</name>
+    </types>
 </Package>
