@@ -2,6 +2,8 @@
     <version>46.0</version>
     <types>
         <members>Opportunity.Cylinder_Volume__c</members>
+        <members>opportunity__c.Santoshtext__c</members>
+        <members>opportunity__c.santoshpicklist__c</members>
         <name>CustomField</name>
     </types>
     <types>
