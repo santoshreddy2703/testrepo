@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>46.0</version>
     <types>
+        <members>Offer5__c.Offer5FLS__c</members>
         <members>Offer5__c.offer5text__c</members>
+        <members>Offer5__c.offer5update__c</members>
         <members>opportunity__c.Santoshtext__c</members>
         <members>opportunity__c.santoshpicklist__c</members>
         <name>CustomField</name>

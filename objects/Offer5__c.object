@@ -154,6 +154,17 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Offer5FLS__c</fullName>
+        <externalId>false</externalId>
+        <label>Offer5FLS</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>offer5text__c</fullName>
         <externalId>false</externalId>
         <label>offer5text</label>
@@ -162,6 +173,45 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>offer5update__c</fullName>
+        <externalId>false</externalId>
+        <label>offer5update</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Apple</fullName>
+                    <default>false</default>
+                    <label>Apple</label>
+                </value>
+                <value>
+                    <fullName>Banana</fullName>
+                    <default>false</default>
+                    <label>Banana</label>
+                </value>
+                <value>
+                    <fullName>Mango</fullName>
+                    <default>false</default>
+                    <label>Mango</label>
+                </value>
+                <value>
+                    <fullName>Pineapple</fullName>
+                    <default>false</default>
+                    <label>Pineapple</label>
+                </value>
+                <value>
+                    <fullName>Strawberry</fullName>
+                    <default>false</default>
+                    <label>Strawberry</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <label>Offer5</label>
     <nameField>
@@ -174,6 +224,29 @@
         <active>true</active>
         <description>new salespitch</description>
         <label>offer name</label>
+        <picklistValues>
+            <picklist>offer5update__c</picklist>
+            <values>
+                <fullName>Apple</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Banana</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mango</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pineapple</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strawberry</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
