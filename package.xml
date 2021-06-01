@@ -4,7 +4,6 @@
         <members>Offer5__c.Offer5FLS__c</members>
         <members>Offer5__c.offer5text__c</members>
         <members>Offer5__c.offer5update__c</members>
-        <members>opportunity__c.Santoshtext__c</members>
         <members>opportunity__c.santoshpicklist__c</members>
         <name>CustomField</name>
     </types>

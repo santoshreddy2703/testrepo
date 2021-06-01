@@ -154,16 +154,6 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Santoshtext__c</fullName>
-        <externalId>false</externalId>
-        <label>Santoshtext</label>
-        <length>25</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>santoshpicklist__c</fullName>
         <externalId>false</externalId>
         <label>santoshpicklist</label>
