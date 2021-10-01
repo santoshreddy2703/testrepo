@@ -6,6 +6,11 @@
         <name>CompactLayout</name>
     </types>
     <types>
+        <members>Account.Principal__c</members>
+        <members>Account.SLAExpirationDate__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
         <members>opportunity__c</members>
         <name>CustomObject</name>
     </types>
