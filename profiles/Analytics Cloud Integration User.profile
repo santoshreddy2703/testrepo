@@ -3,11 +3,6 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>false</editable>
-        <field>opportunity__c.Santoshtext__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>opportunity__c.santoshpicklist__c</field>
         <readable>true</readable>
     </fieldPermissions>
