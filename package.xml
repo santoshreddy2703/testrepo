@@ -6,6 +6,8 @@
         <name>CompactLayout</name>
     </types>
     <types>
+        <members>Account.SLA__c</members>
+        <members>Account.Salary_test__c</members>
         <members>Offer5__c.Offer5FLS__c</members>
         <members>Offer5__c.offer5text__c</members>
         <members>Offer5__c.offer5update__c</members>
