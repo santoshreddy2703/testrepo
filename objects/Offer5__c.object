@@ -154,9 +154,30 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>santoshpicklist__c</fullName>
+        <fullName>Offer5FLS__c</fullName>
         <externalId>false</externalId>
-        <label>santoshpicklist</label>
+        <label>Offer5FLS</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>offer5text__c</fullName>
+        <externalId>false</externalId>
+        <label>offer5text</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>offer5update__c</fullName>
+        <externalId>false</externalId>
+        <label>offer5update</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -165,34 +186,68 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>one</fullName>
+                    <fullName>Apple</fullName>
                     <default>false</default>
-                    <label>one</label>
+                    <label>Apple</label>
                 </value>
                 <value>
-                    <fullName>two</fullName>
+                    <fullName>Banana</fullName>
                     <default>false</default>
-                    <label>two</label>
+                    <label>Banana</label>
                 </value>
                 <value>
-                    <fullName>three</fullName>
+                    <fullName>Mango</fullName>
                     <default>false</default>
-                    <label>three</label>
+                    <label>Mango</label>
                 </value>
                 <value>
-                    <fullName>four</fullName>
+                    <fullName>Pineapple</fullName>
                     <default>false</default>
-                    <label>four</label>
+                    <label>Pineapple</label>
+                </value>
+                <value>
+                    <fullName>Strawberry</fullName>
+                    <default>false</default>
+                    <label>Strawberry</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <label>opportunity</label>
+    <label>Offer5</label>
     <nameField>
-        <label>opportunity Name</label>
+        <label>Offer1 Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>opportunitys</pluralLabel>
+    <pluralLabel>offers5</pluralLabel>
+    <recordTypes>
+        <fullName>offer_name</fullName>
+        <active>true</active>
+        <description>new salespitch</description>
+        <label>offer name</label>
+        <picklistValues>
+            <picklist>offer5update__c</picklist>
+            <values>
+                <fullName>Apple</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Banana</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mango</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pineapple</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strawberry</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

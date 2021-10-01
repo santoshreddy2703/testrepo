@@ -1,0 +1,15 @@
+List<Account> accListUpdate = new List<Account>();
+for(Account acc: [Select Id, Total_No_of_Developers__c, (Select id, AccountId From Contacts Where AccountId != null) From Account Where Total_No_of_Developers__c = null])
+{
+if(acc.contacts.size() > 0)
+{
+acc.Total_No_of_Developers__c = String.valueof(acc.contacts.size());
+accListUpdate.add(acc);
+}
+else if(acc.contacts.size() == 0)
+{
+acc.Total_No_of_Developers__c = '';
+accListUpdate.add(acc);
+}
+}
+update accListUpdate;
